@@ -1,0 +1,129 @@
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0; }
+
+img {
+  width: 100%;
+  height: 100%; }
+
+ul li {
+  margin-top: 1rem; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+.navbar-custom {
+  font-family: 'teko', sans-serif;
+  font-size: 1.5rem;
+  background-color: black; }
+  .navbar-custom .navbar-brand {
+    font-size: 3rem; }
+    @media (min-width: 768px) {
+      .navbar-custom .navbar-brand {
+        padding-left: 2.5rem; } }
+    @media (min-width: 992px) {
+      .navbar-custom .navbar-brand {
+        padding-left: 5rem; } }
+    @media (min-width: 1200px) {
+      .navbar-custom .navbar-brand {
+        padding-left: 8rem; } }
+  @media (min-width: 768px) {
+    .navbar-custom .navbar-nav {
+      padding-left: 15rem; } }
+  @media (min-width: 992px) {
+    .navbar-custom .navbar-nav {
+      padding-left: 25rem; } }
+  @media (min-width: 1200px) {
+    .navbar-custom .navbar-nav {
+      padding-left: 40rem; } }
+
+.carousel-inner .carousel-item {
+  background-attachment: fixed;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-bakcground-size: cover;
+  -o-background-size: cover;
+  background-position: center center; }
+
+.carousel-inner #sliderUno {
+  background-image: url(../../img/sliderUno.jpg); }
+
+.carousel-inner #sliderDos {
+  background-image: url(../../img/sliderDos.jpg); }
+
+.carousel-inner #sliderTres {
+  background-image: url(../../img/sliderTres.jpg); }
+
+.welcomeBanner {
+  background-color: whitesmoke;
+  padding: 3rem; }
+  .welcomeBanner .mainTitle {
+    font-family: 'teko', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0; }
+    @media (min-width: 992px) {
+      .welcomeBanner .mainTitle {
+        font-size: 3rem; } }
+  .welcomeBanner .subtitle {
+    font-family: 'teko', sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 0; }
+    @media (min-width: 992px) {
+      .welcomeBanner .subtitle {
+        font-size: 2rem; } }
+  .welcomeBanner .paragraph {
+    font-family: 'teko', sans-serif;
+    font-size: 1.5rem;
+    padding: 0 2rem; }
+    @media (min-width: 768px) {
+      .welcomeBanner .paragraph {
+        padding: 0rem 5rem; } }
+    @media (min-width: 992px) {
+      .welcomeBanner .paragraph {
+        padding: 0rem 15rem; } }
+
+.menuContainer {
+  height: 480px; }
+
+.menu {
+  background-color: black;
+  padding: 5rem 4rem 0rem !important;
+  font-family: 'teko', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+  color: white; }
+  @media (min-width: 992px) {
+    .menu {
+      padding-bottom: 4rem !important; } }
+  .menu .menuTitle {
+    font-family: 'teko', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    color: white; }
+  .menu .menuList {
+    font-family: 'teko', sans-serif;
+    font-size: 1.5rem;
+    font-weight: normal;
+    color: white;
+    list-style: none;
+    margin-top: 2rem;
+    margin-bottom: 0;
+    padding-left: 5rem; }
+    .menu .menuList .sushiIcon {
+      width: 30px; }
+  .menu .buttonContainer {
+    margin-top: 2rem;
+    margin-bottom: 0; }
+  .menu .menuDivision {
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-bakcground-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    background-image: url(../../img/menuDivision.jpg); }
