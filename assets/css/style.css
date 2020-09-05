@@ -1,3 +1,50 @@
+.banner_menu {
+  background-image: url(../../img/13424.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-bakcground-size: cover;
+  -o-background-size: cover;
+  background-position: center center;
+  padding: 3rem; }
+  @media (min-width: 992px) {
+    .banner_menu {
+      padding: 5rem; } }
+  .banner_menu .banner_menu_title {
+    font-size: 3.5rem;
+    margin-left: 3rem;
+    color: white;
+    font-family: 'teko',sans-serif; }
+    @media (min-width: 768px) {
+      .banner_menu .banner_menu_title {
+        margin-left: 7rem; } }
+    @media (min-width: 992px) {
+      .banner_menu .banner_menu_title {
+        margin-left: 10rem;
+        font-size: 5rem; } }
+
+.combos {
+  background-color: black;
+  font-family: 'teko', sans-serif;
+  color: white;
+  padding-top: 3rem; }
+  .combos .combo_title {
+    padding-top: 2rem; }
+  .combos .combos_list {
+    list-style: none;
+    padding: 0rem 2rem; }
+    @media (min-width: 768px) {
+      .combos .combos_list {
+        margin-bottom: 2rem; } }
+    @media (min-width: 992px) {
+      .combos .combos_list {
+        font-size: 1.5rem; } }
+    @media (min-width: 1200px) {
+      .combos .combos_list {
+        padding-top: 3rem; } }
+    @media (min-width: 992px) {
+      .combos .combos_list .combo_list_titles {
+        font-size: 2rem; } }
+
 .no-gutters {
   margin-right: 0;
   margin-left: 0;
@@ -8,7 +55,7 @@ img {
   width: 100%;
   height: 100%; }
 
-ul li {
+.menuList li {
   margin-top: 1rem; }
 
 a {
@@ -87,10 +134,7 @@ a {
       .welcomeBanner .paragraph {
         padding: 0rem 15rem; } }
 
-.menuContainer {
-  height: 480px; }
-
-.menu {
+.index_menu .menu {
   background-color: black;
   padding: 5rem 4rem 0rem !important;
   font-family: 'teko', sans-serif;
@@ -98,14 +142,14 @@ a {
   font-weight: normal;
   color: white; }
   @media (min-width: 992px) {
-    .menu {
+    .index_menu .menu {
       padding-bottom: 4rem !important; } }
-  .menu .menuTitle {
+  .index_menu .menu .menuTitle {
     font-family: 'teko', sans-serif;
     font-size: 2rem;
     font-weight: bold;
     color: white; }
-  .menu .menuList {
+  .index_menu .menu .menuList {
     font-family: 'teko', sans-serif;
     font-size: 1.5rem;
     font-weight: normal;
@@ -114,12 +158,12 @@ a {
     margin-top: 2rem;
     margin-bottom: 0;
     padding-left: 5rem; }
-    .menu .menuList .sushiIcon {
+    .index_menu .menu .menuList .sushiIcon {
       width: 30px; }
-  .menu .buttonContainer {
+  .index_menu .menu .buttonContainer {
     margin-top: 2rem;
     margin-bottom: 0; }
-  .menu .menuDivision {
+  .index_menu .menu .menuDivision {
     background-attachment: fixed;
     background-size: cover;
     -webkit-background-size: cover;
@@ -127,3 +171,49 @@ a {
     -o-background-size: cover;
     background-position: center center;
     background-image: url(../../img/menuDivision.jpg); }
+
+.second_banner {
+  background-color: red;
+  padding: 1rem;
+  color: black; }
+  .second_banner .mainTitle {
+    font-family: 'teko', sans-serif;
+    font-size: 2rem;
+    font-weight: bold;
+    margin: 0; }
+    @media (min-width: 992px) {
+      .second_banner .mainTitle {
+        font-size: 3rem; } }
+  .second_banner .subtitle {
+    font-family: 'teko', sans-serif;
+    font-size: 1.5rem;
+    font-style: italic;
+    margin-bottom: 0; }
+    @media (min-width: 992px) {
+      .second_banner .subtitle {
+        font-size: 2rem; } }
+  .second_banner .paragraph {
+    font-family: 'teko', sans-serif;
+    font-size: 1.5rem;
+    padding: 0 2rem; }
+    @media (min-width: 768px) {
+      .second_banner .paragraph {
+        padding: 0rem 5rem; } }
+    @media (min-width: 992px) {
+      .second_banner .paragraph {
+        padding: 0rem 15rem; } }
+  .second_banner .form {
+    padding: 0rem 3rem;
+    font-family: 'teko', sans-serif;
+    color: black; }
+    @media (min-width: 768px) {
+      .second_banner .form {
+        padding: 0rem 15rem; } }
+    @media (min-width: 992px) {
+      .second_banner .form {
+        padding: 0rem 21rem; } }
+    @media (min-width: 1200px) {
+      .second_banner .form {
+        padding: 0rem 31rem; } }
+    .second_banner .form .form_selector {
+      font-size: 1.5rem; }

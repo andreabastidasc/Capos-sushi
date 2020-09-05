@@ -1,0 +1,55 @@
+.banner_menu {
+    background-image: url(../../img/13424.jpg) ;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-bakcground-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    padding: 3rem;
+    @media (min-width: 992px) {
+        padding: 5rem;
+    }
+    .banner_menu_title {
+      font-size: 3.5rem;
+      margin-left: 3rem;
+      color: white;
+      font-family: 'teko',sans-serif;
+      @media (min-width:768px) {
+          margin-left: 7rem;
+      }
+      @media (min-width:992px){
+          margin-left: 10rem;
+          font-size: 5rem;
+      }
+    }
+
+}
+.combos {
+    background-color: black;
+    font-family: 'teko', sans-serif;
+    color: white;
+    padding-top: 3rem;
+    .combo_title {
+        padding-top: 2rem;
+    }
+    .combos_list {
+        list-style: none;
+        padding: 0rem 2rem;
+        @media (min-width: 768px) {
+            margin-bottom: 2rem;
+        }
+        @media (min-width: 992px) {
+            font-size: 1.5rem;
+        }
+        @media (min-width: 1200px) {
+            padding-top: 3rem;
+        }
+        .combo_list_titles {
+            @media (min-width:992px) {
+                font-size: 2rem;
+            }
+        }
+    }
+}
+
+
