@@ -51,5 +51,94 @@
         }
     }
 }
+.entries {
+    background-image: url(../../img/1103.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-bakcground-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    font-family: 'teko', sans-serif;
+    color: black;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    .entries_paragraph {
+        padding: 0rem 4rem;
+        font-size: 1.3rem;
+        .precio {
+            font-size: 1.5rem;
+            font-weight: bold;
+        }
+    }
+}
+.rolls {
+    background-image: url(../../img/1103.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-bakcground-size: cover;
+    -o-background-size: cover;
+    background-position: center center;
+    padding: 3rem;
+    font-family: 'teko', sans-serif;
+    color: black;
+    ul {
+        list-style: none;
+        padding-inline-start: 0px;
+        li {
+            p{
+                padding: 0rem 4rem;
+                font-size: 1.3rem;
+                span {
+                    font-weight: bolder;
+                    font-size: 1.5rem;
+                }
+            }
+        }
+    }
+}
+.special_rolls {
+    padding: 3rem;
+    font-family: 'teko', sans-serif;
+    color: white;
+    background-color: black;
+    p{
+        padding: 0rem 4rem;
+        font-size: 1.3rem;
+        span {
+            font-weight: bolder;
+            font-size: 1.5rem;
+        }
+    }
+
+}
+.menu_download {
+    background-color:#c31e2c;
+    padding: 3rem !important;
+    font-family: 'teko', sans-serif;
+    color: white;
+    .menu_download_title {
+        font-size: 2.5rem !important;
+        @media (min-width:992px) {
+            font-size: 3.5rem !important;
+        }
+    }
+    .menu_download_button {
+        font-size: 1.5rem !important;
+        padding: 0.2rem 1.5rem;
+        @media (min-width:768px) {
+            margin-left: 150px !important;
+        }
+        @media (min-width: 992px) {
+            margin-top: 40px;
+            margin-left: 280px !important;
+        }
+        @media (min-width:1200px) {
+            margin-top: 10px;
+            margin-left: 420px !important;
+        }
+    }
+}
 
 
