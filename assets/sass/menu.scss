@@ -90,6 +90,9 @@
             p{
                 padding: 0rem 4rem;
                 font-size: 1.3rem;
+                @media (min-width: 1200px) {
+                    padding: 0rem 10rem;
+                }
                 span {
                     font-weight: bolder;
                     font-size: 1.5rem;
